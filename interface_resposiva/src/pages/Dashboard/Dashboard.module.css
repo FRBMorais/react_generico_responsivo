@@ -1,0 +1,28 @@
+.containerDashboard {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: 130px auto auto; /* Define duas colunas: sidebar e painel */
+    grid-template-rows: auto auto auto; /* Define duas linhas: header e conteúdo */
+    grid-template-areas: 
+        "header header header"
+        "sidebar panel panel"; /* Define as áreas do layout */
+}
+
+.containerHeader {
+    grid-area: header; /* O header ocupa toda a primeira linha */
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.containerSidebar {
+    grid-area: sidebar; /* A sidebar ocupa a primeira coluna da segunda linha */
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.containerPanel {
+    grid-area: panel; /* O painel ocupa a segunda coluna da segunda linha */
+    border: 2px solid black;
+    padding: 10px;
+}
