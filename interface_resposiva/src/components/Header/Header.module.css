@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f7f6fb;
+    /* border-bottom: 2px solid black; */
+  }
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 10px;
+
+  }
+  
+  .toggleButton .material-icons {
+    color: #005594;
+    font-size: 2rem;
+  }
+  
+  .menuHamburguer {
+    color: #005594;
+
+  }
+  .logoAgro {
+    width: 150px;
+    height: auto;
+  }
+  
+  .relatorioInstantaneo {
+    margin-left: 0px;
+    font-size: 1.2rem;
+    color: #005594;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .logoAgro {
+      width: 120px;
+    }
+  
+    .relatorioInstantaneo {
+      font-size: 1rem;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logoAgro {
+      width: 100px;
+    }
+  
+    .relatorioInstantaneo {
+      font-size: 0.9rem;
+    }
+  
+    .logo {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
