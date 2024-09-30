@@ -31,7 +31,7 @@
 
   }
   .logoAgro {
-    width: 150px;
+    width: 250px;
     height: auto;
   }
   
@@ -64,7 +64,7 @@
   
   @media (max-width: 480px) {
     .logoAgro {
-      width: 100px;
+      width: 200px;
     }
   
     .relatorioInstantaneo {

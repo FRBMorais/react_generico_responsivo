@@ -1,0 +1,56 @@
+/* Adicione esta classe */
+.controlColumn {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.controlBox {
+  background: #005594;
+  height: 95px;
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.controlTitle {
+  height: 20px;
+  width: 95%;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+}
+
+.dateInput {
+  width: 95%;
+  font-size: 16px;
+  height: 29px;
+  padding: 4px 0px 4px 8px;
+  border-width: 1px;
+}
+
+.searchButton {
+  width: 80%;
+  height: 70%;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.periodButtonsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  width: 100%;
+}
+
+.periodButton {
+  width: 100%;
+  height: 100%;
+  padding: 5px 0px;
+}

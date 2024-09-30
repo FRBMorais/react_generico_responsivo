@@ -12,17 +12,21 @@ const Sidebar = ({ isOpen, className }) => {
           </a>
          
           <div className={styles.navList}>
-            <a className={`${styles.navLink} ${styles.active}`} href="dashboard.html">
+            <a className={`${styles.navLink} ${styles.active}`} href="#">
               <i className="material-icons">dashboard</i>
               <span className={styles.navName}>Dashboard</span>
             </a>
-            <a className={styles.navLink} href="relatorio.html">
+            <a className={styles.navLink} href="#">
               <i className="material-icons">assignment</i>
               <span className={styles.navName}>Relatório</span>
             </a>
-            <a className={styles.navLink} href="cadastros.html">
+            <a className={styles.navLink} href="#">
               <i className="material-icons">assignment_ind</i>
               <span className={styles.navName}>Cadastros</span>
+            </a>
+            <a className={styles.navLink} href="#">
+              <i className="material-icons">logout</i>
+              <span className={styles.navName}>Logout</span>
             </a>
           </div>
         </div>

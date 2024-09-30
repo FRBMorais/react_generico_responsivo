@@ -52,6 +52,7 @@
     text-decoration: none;
     transition: color 0.3s;
     position: relative;
+    gap: 15px; /* Added gap for spacing between icon and name */
   }
   
   .navLink:hover {
@@ -60,7 +61,6 @@
   
   .navLink .material-icons {
     font-size: 1.5rem;
-    margin-right: 1rem;
   }
   
   .navName {
@@ -94,6 +94,7 @@
     .navLink {
       justify-content: center;
       padding: 0.5rem 0;
+      gap: 0; /* Remove gap on small screens */
     }
   
     .navLink .material-icons {
